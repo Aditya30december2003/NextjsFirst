@@ -32,8 +32,9 @@ export default function VerifyEmailPage() {
 
     useEffect(() => {
         if(token.length > 0) {
-            verifyUserEmail();
+            verifyUserEmail;
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [token]);
 
     return(
